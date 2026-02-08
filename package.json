@@ -13,7 +13,7 @@
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "npm run build-storybook && gh-pages -d .storybook-static",
+    "deploy-storybook": "npm run build-storybook && gh-pages -d storybook-static",
     "prepare": "npm run build"
   },
   "keywords": [
